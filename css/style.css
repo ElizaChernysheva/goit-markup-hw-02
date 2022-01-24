@@ -21,10 +21,13 @@ font-family: 'Roboto', sans-serif;*/
 }
 
 body {
-    font-family: var(--main-font-style);
+    font-family: var(--main-font-style),
+    '-apple-system', 'BlinkMacSystemFont',
+    'avenir next', 'avenir', 'segoe ui', 'helvetica neue', 
+    'helvetica', 'Ubuntu', 'noto', 'arial', sans-serif;
     font-size: var(--font-size-small);
-    font-weight: 400;
     color: var(--title-text-color);
+
     background-color: var(--secondary-grey-color);
 }
 
